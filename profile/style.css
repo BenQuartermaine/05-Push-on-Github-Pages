@@ -1,0 +1,80 @@
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.profile-picture:hover {
+  transform: scale3d(1.1, 1.1, 1) rotate(-25deg);
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+ 
+
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(201, 74, 0);
+}
+
+.header, p, h3, h2 {
+  text-align: center;  
+}
+
+i {
+  padding-right: 4px;
+}
+.social-text{
+  color: rgb(0, 125, 125);
+  transition: transform 0.2s;
+}
+
+.fab {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding-right: 4px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.fab:hover {
+  color: rgb(125, 125, 125);
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.movie-covers {
+  height: 200px;
+  width: 250px;
+  justify-content: center;
+}
+
+.content {
+  align-content: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto; 
+}
+
+.card {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgb(205, 205, 205);
+}
+
+table {
+  margin: 0 auto; 
+  padding: 20px;
+}
